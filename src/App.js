@@ -21,7 +21,7 @@ function App() {
       return url.replace("ipfs://", "https://ipfs.io/ipfs/")
     }
   }
-const Token="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";
+const Token=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;
   const generateArt = async () => {
     setLoading(true)
     try {
