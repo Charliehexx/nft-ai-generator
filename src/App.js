@@ -88,7 +88,7 @@ const Token=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;
           chain: "polygon",
           name: "Sample NFT",
           description: "Build with NFTPort!",
-          mint_to_address: "0x7D1DA81AdF60599a565240BeEEB5fFe059522F3D",
+          mint_to_address: "0xdEfD787c473a31d385a25A2ab6E03417C26759C4",
         },
         {
           headers: {
