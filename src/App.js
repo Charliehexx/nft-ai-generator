@@ -29,7 +29,7 @@ function App() {
         `https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5`,
         {
           headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_HUGGING_FACE}}`,
+            Authorization: `Bearer ${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}}`,
           },
           method: "POST",
           inputs: prompt,
