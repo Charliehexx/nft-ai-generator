@@ -92,7 +92,7 @@ function App() {
         },
         {
           headers: {
-            Authorization: 42526d8c-dafa-4b83-9c49-90d7d778dd55,
+            Authorization: process.env.REACT_APP_NFT_PORT,
           }
         }
       );
