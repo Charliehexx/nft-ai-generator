@@ -29,7 +29,7 @@ const Token="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";
         `https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5`,
         {
           headers: {
-            Authorization: `Bearer ${Token}}`,
+            Authorization: `Bearer ${Token}`,
           },
           method: "POST",
           inputs: prompt,
