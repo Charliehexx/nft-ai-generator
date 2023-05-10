@@ -21,7 +21,7 @@ function App() {
       return url.replace("ipfs://", "https://ipfs.io/ipfs/")
     }
   }
-
+const Token="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";
   const generateArt = async () => {
     setLoading(true)
     try {
@@ -29,7 +29,7 @@ function App() {
         `https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5`,
         {
           headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_HUGGING_FACE}}`,
+            Authorization: `Bearer ${Token}}`,
           },
           method: "POST",
           inputs: prompt,
